@@ -74,7 +74,7 @@
     "ssh_key": ""
   },
   "meta": {
-    "filename": "virm-stm32.kicad_prl",
+    "filename": "pcb.kicad_prl",
     "version": 3
   },
   "project": {

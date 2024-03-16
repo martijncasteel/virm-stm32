@@ -239,7 +239,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "virm-stm32.kicad_pro",
+    "filename": "pcb.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -383,7 +383,7 @@
   },
   "sheets": [
     [
-      "b59a39ad-0da4-44fb-8a67-225b8918cd11",
+      "8ee1ec31-71f0-4848-90a2-86703fa56028",
       "Root"
     ]
   ],
