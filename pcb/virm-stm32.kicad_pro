@@ -239,7 +239,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "pcb.kicad_pro",
+    "filename": "virm-stm32.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -385,6 +385,10 @@
     [
       "8ee1ec31-71f0-4848-90a2-86703fa56028",
       "Root"
+    ],
+    [
+      "43e012f4-5a94-4351-9f48-2b43d14e4308",
+      "LED Matrix"
     ]
   ],
   "text_variables": {}
