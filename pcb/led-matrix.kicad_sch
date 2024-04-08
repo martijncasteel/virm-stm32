@@ -3222,6 +3222,16 @@
 		)
 		(uuid "e191e13f-51bc-472f-a076-24f9f8e4b9c1")
 	)
+	(text "TODO: check current limiting resistor"
+		(exclude_from_sim no)
+		(at 105.664 159.512 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "e94fcbdb-2093-47b1-afc9-4e34692490f7")
+	)
 	(global_label "LED0"
 		(shape input)
 		(at 124.46 55.88 90)
