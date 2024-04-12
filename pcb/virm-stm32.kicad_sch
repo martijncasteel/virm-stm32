@@ -5646,16 +5646,6 @@
 		)
 		(uuid "1f6e9a76-7af1-4dce-9371-6c6baefbc344")
 	)
-	(text "Check if SCA/SCL is not inverted"
-		(exclude_from_sim no)
-		(at 34.29 106.426 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "8dfe8177-b286-490f-9b62-23c3842f681a")
-	)
 	(text "Maybe add battery and regulator to wear it"
 		(exclude_from_sim no)
 		(at 207.772 21.082 0)
@@ -5665,6 +5655,16 @@
 			)
 		)
 		(uuid "9d7c24ac-0fa7-48a3-b5bf-b58ed49d824c")
+	)
+	(text "TODO add two more pins for 18 columns of 5 leds"
+		(exclude_from_sim no)
+		(at 172.466 73.66 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "d78c93e5-1b05-4c94-844a-e82ae2b484d4")
 	)
 	(label "SWCLK"
 		(at 151.13 91.44 0)
@@ -5677,7 +5677,7 @@
 		)
 		(uuid "060f2ae0-1ad6-4aee-8d82-5353f22c96e7")
 	)
-	(label "SCA"
+	(label "SDA"
 		(at 46.99 109.22 0)
 		(fields_autoplaced yes)
 		(effects

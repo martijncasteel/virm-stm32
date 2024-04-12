@@ -726,18 +726,6 @@
 		(uuid "b6dda8c8-5d48-4b09-ae43-d6af05f2f8aa")
 	)
 	(junction
-		(at 195.58 118.11)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "be76b63f-0357-4715-b2b6-28f9172916a5")
-	)
-	(junction
-		(at 179.07 147.32)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c10775e8-b883-48d4-a727-fef7fa9d67b3")
-	)
-	(junction
 		(at 179.07 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2033,16 +2021,6 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 142.24) (xy 190.5 140.97)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "85bdb9c6-18f9-4207-8467-30150c965d34")
-	)
-	(wire
-		(pts
 			(xy 201.93 83.82) (xy 201.93 82.55)
 		)
 		(stroke
@@ -2133,16 +2111,6 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 118.11) (xy 195.58 140.97)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8c34e70d-7efc-4fe4-9f37-a8e3b8574bb9")
-	)
-	(wire
-		(pts
 			(xy 135.89 106.68) (xy 135.89 118.11)
 		)
 		(stroke
@@ -2150,16 +2118,6 @@
 			(type default)
 		)
 		(uuid "8dc92e7c-a0d0-4ecd-964d-ef9824400afb")
-	)
-	(wire
-		(pts
-			(xy 190.5 140.97) (xy 195.58 140.97)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8e1890d8-b91a-4eac-8a69-52824589a923")
 	)
 	(wire
 		(pts
@@ -3170,16 +3128,6 @@
 			(type default)
 		)
 		(uuid "f85e60d1-61bb-4d2e-a520-8f5ebeed0120")
-	)
-	(wire
-		(pts
-			(xy 179.07 147.32) (xy 190.5 147.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f9e76710-b9a6-4f53-aeed-11fcd397a676")
 	)
 	(wire
 		(pts
@@ -6428,82 +6376,6 @@
 			(project "virm-stm32"
 				(path "/8ee1ec31-71f0-4848-90a2-86703fa56028/43e012f4-5a94-4351-9f48-2b43d14e4308"
 					(reference "D9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED_Small")
-		(at 190.5 144.78 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "9d7d64bc-b12a-4e52-a09b-4da590dfa60c")
-		(property "Reference" "D56"
-			(at 189.23 142.748 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LED_Small"
-			(at 186.69 144.8435 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
-			(at 190.5 144.78 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2304140030_Foshan-NationStar-Optoelectronics-NCD0805R1_C84256.pdf"
-			(at 190.5 144.78 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Light emitting diode, small symbol"
-			(at 190.5 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "lcsc" "C84256"
-			(at 194.818 147.066 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "a60cb0e9-ea96-40f4-9966-5da160bdad84")
-		)
-		(pin "2"
-			(uuid "3050772b-49c1-4d03-bfec-811dc34c8a31")
-		)
-		(instances
-			(project "virm-stm32"
-				(path "/8ee1ec31-71f0-4848-90a2-86703fa56028/43e012f4-5a94-4351-9f48-2b43d14e4308"
-					(reference "D56")
 					(unit 1)
 				)
 			)
