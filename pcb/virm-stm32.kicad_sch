@@ -3947,10 +3947,6 @@
 		(uuid "54e4a043-0907-47eb-9e29-2e57e86c16e7")
 	)
 	(no_connect
-		(at 132.08 78.74)
-		(uuid "5f421a39-f858-46f2-bad2-1be8a0a2e909")
-	)
-	(no_connect
 		(at 238.76 107.95)
 		(uuid "722cf798-7089-4b87-aaeb-364cfb186b03")
 	)
@@ -3981,10 +3977,6 @@
 	(no_connect
 		(at 208.28 125.73)
 		(uuid "d913b387-c160-46f7-aeef-7e7e079d1256")
-	)
-	(no_connect
-		(at 132.08 76.2)
-		(uuid "e72d05de-89f8-4bd2-931b-5e0eabbfb7b2")
 	)
 	(wire
 		(pts
@@ -4438,6 +4430,16 @@
 	)
 	(wire
 		(pts
+			(xy 132.08 78.74) (xy 137.16 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4338f630-3776-4bd9-96dc-f7b22aa4edfc")
+	)
+	(wire
+		(pts
 			(xy 137.16 55.88) (xy 132.08 55.88)
 		)
 		(stroke
@@ -4825,6 +4827,16 @@
 			(type default)
 		)
 		(uuid "799a7155-69ad-4a1d-a19c-33d75dae2289")
+	)
+	(wire
+		(pts
+			(xy 132.08 76.2) (xy 137.16 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a784585-e17d-49cd-a1cc-4d2eb7101a4a")
 	)
 	(wire
 		(pts
@@ -5656,16 +5668,6 @@
 		)
 		(uuid "9d7c24ac-0fa7-48a3-b5bf-b58ed49d824c")
 	)
-	(text "TODO add two more pins for 18 columns of 5 leds"
-		(exclude_from_sim no)
-		(at 172.466 73.66 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "d78c93e5-1b05-4c94-844a-e82ae2b484d4")
-	)
 	(label "SWCLK"
 		(at 151.13 91.44 0)
 		(fields_autoplaced yes)
@@ -5849,6 +5851,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "LED8"
+		(shape input)
+		(at 137.16 76.2 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "187292b1-190d-46e3-bccc-8c8abef232d4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 144.8018 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -6311,6 +6335,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "LED9"
+		(shape input)
+		(at 137.16 78.74 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b2e86f12-b39a-4669-b921-027746d7fea2")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 144.8018 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -10270,7 +10316,7 @@
 	)
 	(sheet
 		(at 134.62 53.34)
-		(size 12.7 22.86)
+		(size 12.7 27.94)
 		(stroke
 			(width 0.1524)
 			(type solid)
